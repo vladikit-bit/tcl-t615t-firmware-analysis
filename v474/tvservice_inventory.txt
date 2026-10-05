@@ -1,0 +1,538 @@
+# V474 tvservice.img inventory: dirs=60 files=477
+D /bin
+D /bin/script
+D /bin/script/debug
+D /bin/script/debug/modules
+D /bin/script/debug/modules/audio
+D /bin/script/debug/modules/bsp
+D /bin/script/debug/modules/bsp/audio
+D /bin/script/debug/modules/bsp/audio/scenario
+D /bin/script/debug/modules/bsp/common
+D /bin/script/debug/modules/bsp/disp
+D /bin/script/debug/modules/bsp/optee
+D /bin/script/debug/modules/bsp/peripheral
+D /bin/script/debug/modules/bsp/svp
+D /bin/script/debug/modules/bsp/video
+D /bin/script/debug/modules/display
+D /bin/script/debug/modules/platform
+D /bin/script/debug/modules/platform/GAM
+D /bin/script/debug/modules/platform/QDA
+D /bin/script/debug/modules/platform/bluetooth
+D /bin/script/debug/modules/platform/camera
+D /bin/script/debug/modules/platform/cast
+D /bin/script/debug/modules/platform/cec
+D /bin/script/debug/modules/platform/csp
+D /bin/script/debug/modules/platform/dfb
+D /bin/script/debug/modules/platform/factory
+D /bin/script/debug/modules/platform/ffga
+D /bin/script/debug/modules/platform/ffga/scenario
+D /bin/script/debug/modules/platform/hbbtv
+D /bin/script/debug/modules/platform/hls
+D /bin/script/debug/modules/platform/light
+D /bin/script/debug/modules/platform/localmm
+D /bin/script/debug/modules/platform/mm
+D /bin/script/debug/modules/platform/mss
+D /bin/script/debug/modules/platform/network
+D /bin/script/debug/modules/platform/performance
+D /bin/script/debug/modules/platform/power
+D /bin/script/debug/modules/platform/security
+D /bin/script/debug/utils
+D /glibc
+D /glibc/bin
+D /glibc/bin/airplay
+D /glibc/bin/airplay/WebApp
+D /glibc/bin/airplay/WebApp/Assets
+D /glibc/bin/airplay/WebApp/Assets/Attributes
+D /glibc/bin/airplay/WebApp/Assets/Circles
+D /glibc/bin/airplay/WebApp/Assets/Icons
+D /glibc/bin/airplay/WebApp/Assets/Localization
+D /glibc/bin/airplay/WebApp/Assets/Materials
+D /glibc/bin/airplay/WebApp/Assets/Ratings
+D /glibc/bin/airplay/WebApp/Assets/Ratings/US
+D /glibc/bin/airplay/WebApp/Assets/Ratings/US/white
+D /glibc/bin/airplay/WebApp/Assets/Ratings/US/white/small
+D /glibc/bin/airplay/WebApp/Assets/Reviews
+D /glibc/bin/airplay/WebApp/Assets/Tabs
+D /glibc/bin/airplay/WebApp/tracktranslations
+D /glibc/bin/airplay/WebApp/uitranslations
+D /glibc/bin/airplay/bin
+D /glibc/bin/airplay/lib
+D /glibc/optee_armtz
+D /lost+found
+F      7371528 /bin/cpu_audio
+F       195052 /bin/midaemon
+F        36029 /bin/script/debug/README.html
+F         6731 /bin/script/debug/README.md
+F        10050 /bin/script/debug/autolog.sh
+F         3365 /bin/script/debug/modules/audio/audio.sh
+F          947 /bin/script/debug/modules/audio/demo.sh
+F         1680 /bin/script/debug/modules/audio/example.sh
+F         1767 /bin/script/debug/modules/bsp/audio/audio.sh
+F         3670 /bin/script/debug/modules/bsp/audio/audio_demo.sh
+F         1410 /bin/script/debug/modules/bsp/audio/scenario/audio_10101.sh
+F         1410 /bin/script/debug/modules/bsp/audio/scenario/audio_10201.sh
+F         1410 /bin/script/debug/modules/bsp/audio/scenario/audio_10301.sh
+F         1766 /bin/script/debug/modules/bsp/audio/scenario/audio_10401.sh
+F         1410 /bin/script/debug/modules/bsp/audio/scenario/audio_10501.sh
+F         1457 /bin/script/debug/modules/bsp/audio/scenario/audio_10601.sh
+F         1768 /bin/script/debug/modules/bsp/audio/scenario/audio_10701.sh
+F         1768 /bin/script/debug/modules/bsp/audio/scenario/audio_10801.sh
+F         1410 /bin/script/debug/modules/bsp/audio/scenario/audio_10901.sh
+F         1410 /bin/script/debug/modules/bsp/audio/scenario/audio_11001.sh
+F         1410 /bin/script/debug/modules/bsp/audio/scenario/audio_11101.sh
+F         1457 /bin/script/debug/modules/bsp/audio/scenario/audio_11201.sh
+F         1723 /bin/script/debug/modules/bsp/audio/scenario/audio_20101.sh
+F         1079 /bin/script/debug/modules/bsp/audio/scenario/audio_30101.sh
+F          843 /bin/script/debug/modules/bsp/audio/scenario/audio_30103.sh
+F         1455 /bin/script/debug/modules/bsp/audio/scenario/audio_90001.sh
+F         5073 /bin/script/debug/modules/bsp/common/common.sh
+F        23081 /bin/script/debug/modules/bsp/disp/disp.sh
+F         6107 /bin/script/debug/modules/bsp/optee/optee.sh
+F         2872 /bin/script/debug/modules/bsp/peripheral/bdma.sh
+F         2885 /bin/script/debug/modules/bsp/peripheral/emac.sh
+F         2823 /bin/script/debug/modules/bsp/peripheral/hwsem.sh
+F         3393 /bin/script/debug/modules/bsp/peripheral/i2c.sh
+F         3360 /bin/script/debug/modules/bsp/peripheral/ir.sh
+F         4046 /bin/script/debug/modules/bsp/peripheral/peripheral.sh
+F         3221 /bin/script/debug/modules/bsp/peripheral/pwm.sh
+F         2897 /bin/script/debug/modules/bsp/svp/svp.sh
+F         7216 /bin/script/debug/modules/bsp/video/video.sh
+F         2251 /bin/script/debug/modules/display/Display.sh
+F         1367 /bin/script/debug/modules/display/demo.sh
+F         1963 /bin/script/debug/modules/display/example.sh
+F         2812 /bin/script/debug/modules/platform/GAM/GAM.sh
+F         2063 /bin/script/debug/modules/platform/QDA/drmp.sh
+F         9169 /bin/script/debug/modules/platform/bluetooth/bluetooth_android.sh
+F         6739 /bin/script/debug/modules/platform/camera/camera.sh
+F         8161 /bin/script/debug/modules/platform/cast/cast.sh
+F         9652 /bin/script/debug/modules/platform/cec/cec.sh
+F        15471 /bin/script/debug/modules/platform/csp/cobalt.sh
+F         7328 /bin/script/debug/modules/platform/csp/dai.sh
+F         1806 /bin/script/debug/modules/platform/csp/dai_logutils.sh
+F         3726 /bin/script/debug/modules/platform/csp/dial.sh
+F         7417 /bin/script/debug/modules/platform/csp/netflix.sh
+F         4636 /bin/script/debug/modules/platform/csp/primevideo_an.sh
+F         6248 /bin/script/debug/modules/platform/csp/svad.sh
+F        11142 /bin/script/debug/modules/platform/csp/wfd.sh
+F         8969 /bin/script/debug/modules/platform/csp/yt_logutils.sh
+F         8664 /bin/script/debug/modules/platform/dfb/dfb.sh
+F        30260 /bin/script/debug/modules/platform/dfb/dfbdump
+F        30260 /bin/script/debug/modules/platform/dfb/dfbdump_an
+F         6118 /bin/script/debug/modules/platform/factory/factory_android.sh
+F         6662 /bin/script/debug/modules/platform/factory/factory_api.sh
+F         1878 /bin/script/debug/modules/platform/ffga/ffga.sh
+F          617 /bin/script/debug/modules/platform/ffga/scenario/ffga_10001.sh
+F          500 /bin/script/debug/modules/platform/ffga/scenario/ffga_10002.sh
+F          669 /bin/script/debug/modules/platform/ffga/scenario/ffga_10003.sh
+F          939 /bin/script/debug/modules/platform/ffga/scenario/ffga_10004.sh
+F         4761 /bin/script/debug/modules/platform/hbbtv/dash_android.sh
+F         2234 /bin/script/debug/modules/platform/hls/hls.sh
+F         6269 /bin/script/debug/modules/platform/light/lightsHAL.sh
+F         6118 /bin/script/debug/modules/platform/localmm/localmm_android.sh
+F         6888 /bin/script/debug/modules/platform/mm/mi_debug_avp_off_MLR53.sh
+F         6955 /bin/script/debug/modules/platform/mm/mi_debug_avp_on_MLR53.sh
+F         9769 /bin/script/debug/modules/platform/mm/mi_debug_avp_on_MLR53_AVdump.sh
+F         8733 /bin/script/debug/modules/platform/mm/mi_debug_avp_on_MLR53_audiodump.sh
+F         8232 /bin/script/debug/modules/platform/mm/mi_debug_avp_on_MLR53_videodump.sh
+F         1117 /bin/script/debug/modules/platform/mm/mi_mm_debug_off.sh
+F         1745 /bin/script/debug/modules/platform/mm/mi_mm_debug_on.sh
+F         7232 /bin/script/debug/modules/platform/mm/mi_mm_fusion20_linux.sh
+F         6556 /bin/script/debug/modules/platform/mm/mm_demo.sh
+F        10184 /bin/script/debug/modules/platform/mm/mm_fusion10_an.sh
+F        23496 /bin/script/debug/modules/platform/mm/mm_fusion20_linux.sh
+F        13564 /bin/script/debug/modules/platform/mm/mm_fusion21_an.sh
+F         2074 /bin/script/debug/modules/platform/mss/mss.sh
+F        12314 /bin/script/debug/modules/platform/network/ethernet_android.sh
+F         7879 /bin/script/debug/modules/platform/performance/performance.sh
+F         7867 /bin/script/debug/modules/platform/performance/performance_an.sh
+F         5001 /bin/script/debug/modules/platform/power/power.sh
+F         7271 /bin/script/debug/modules/platform/security/widevine.sh
+F         7888 /bin/script/debug/modules/platform/security/widevine_an.sh
+F          137 /bin/script/debug/utils/arguments.sh
+F          106 /bin/script/debug/utils/colors.sh
+F         1596 /bin/script/debug/utils/imports.sh
+F         1010 /bin/script/debug/utils/loggers.sh
+F          791 /bin/script/debug/utils/preprocess.sh
+F         3954 /bin/script/debug/utils/sys.sh
+F        65536 /glibc/bin/PM.bin
+F         1302 /glibc/bin/airplay/WebApp/Assets/Attributes/4K_white.svg
+F         4404 /glibc/bin/airplay/WebApp/Assets/Attributes/DolbyAtmos_white.svg
+F         6857 /glibc/bin/airplay/WebApp/Assets/Attributes/DolbyVision_white.svg
+F         1936 /glibc/bin/airplay/WebApp/Assets/Attributes/HDR_TVOS_white.svg
+F         1131 /glibc/bin/airplay/WebApp/Assets/Attributes/HD_white.svg
+F          894 /glibc/bin/airplay/WebApp/Assets/Attributes/ad_white.svg
+F         1280 /glibc/bin/airplay/WebApp/Assets/Attributes/cc_white.svg
+F         2550 /glibc/bin/airplay/WebApp/Assets/Attributes/sdh_white.svg
+F         1329 /glibc/bin/airplay/WebApp/Assets/Circles/controls_focused32.png
+F          933 /glibc/bin/airplay/WebApp/Assets/Circles/controls_focused32_720.png
+F         6105 /glibc/bin/airplay/WebApp/Assets/Circles/controls_focused_shadow32.png
+F         3358 /glibc/bin/airplay/WebApp/Assets/Circles/controls_focused_shadow32_720.png
+F         3673 /glibc/bin/airplay/WebApp/Assets/Circles/controls_selected32.png
+F         2195 /glibc/bin/airplay/WebApp/Assets/Circles/controls_selected32_720.png
+F         1920 /glibc/bin/airplay/WebApp/Assets/Circles/controls_unfocused_shadow32.png
+F         1140 /glibc/bin/airplay/WebApp/Assets/Circles/controls_unfocused_shadow32_720.png
+F         1325 /glibc/bin/airplay/WebApp/Assets/Icons/audio_blk.svg
+F         1328 /glibc/bin/airplay/WebApp/Assets/Icons/audio_wht.svg
+F         2374 /glibc/bin/airplay/WebApp/Assets/Icons/backward10_blk.svg
+F         2377 /glibc/bin/airplay/WebApp/Assets/Icons/backward10_wht.svg
+F         1231 /glibc/bin/airplay/WebApp/Assets/Icons/backward_blk.svg
+F         1234 /glibc/bin/airplay/WebApp/Assets/Icons/backward_wht.svg
+F          757 /glibc/bin/airplay/WebApp/Assets/Icons/checkmark.svg
+F          772 /glibc/bin/airplay/WebApp/Assets/Icons/checkmark_on_dark.svg
+F          971 /glibc/bin/airplay/WebApp/Assets/Icons/close_blk.svg
+F          974 /glibc/bin/airplay/WebApp/Assets/Icons/close_wht.svg
+F         1620 /glibc/bin/airplay/WebApp/Assets/Icons/forward.svg
+F         2371 /glibc/bin/airplay/WebApp/Assets/Icons/forward10_blk.svg
+F         2373 /glibc/bin/airplay/WebApp/Assets/Icons/forward10_wht.svg
+F         1201 /glibc/bin/airplay/WebApp/Assets/Icons/forward_blk.svg
+F         1203 /glibc/bin/airplay/WebApp/Assets/Icons/forward_wht.svg
+F         1416 /glibc/bin/airplay/WebApp/Assets/Icons/pause.svg
+F          956 /glibc/bin/airplay/WebApp/Assets/Icons/pause_blk.svg
+F          960 /glibc/bin/airplay/WebApp/Assets/Icons/pause_wht.svg
+F          712 /glibc/bin/airplay/WebApp/Assets/Icons/play_blk.svg
+F          715 /glibc/bin/airplay/WebApp/Assets/Icons/play_wht.svg
+F          176 /glibc/bin/airplay/WebApp/Assets/Icons/playhead_circle_14.svg
+F          177 /glibc/bin/airplay/WebApp/Assets/Icons/playhead_circle_20.svg
+F          165 /glibc/bin/airplay/WebApp/Assets/Icons/playhead_circle_26.svg
+F          167 /glibc/bin/airplay/WebApp/Assets/Icons/playhead_vertical.svg
+F         1612 /glibc/bin/airplay/WebApp/Assets/Icons/rewind.svg
+F         2254 /glibc/bin/airplay/WebApp/Assets/Icons/skip_10_backward.svg
+F         2256 /glibc/bin/airplay/WebApp/Assets/Icons/skip_10_forward.svg
+F         3043 /glibc/bin/airplay/WebApp/Assets/Icons/subtitles_blk.svg
+F         3046 /glibc/bin/airplay/WebApp/Assets/Icons/subtitles_wht.svg
+F          299 /glibc/bin/airplay/WebApp/Assets/Localization/locales.json
+F         1054 /glibc/bin/airplay/WebApp/Assets/Materials/MediumDark24.png
+F          754 /glibc/bin/airplay/WebApp/Assets/Materials/MediumDark24_720.png
+F         1290 /glibc/bin/airplay/WebApp/Assets/Materials/controls_dark_menu30.png
+F          834 /glibc/bin/airplay/WebApp/Assets/Materials/controls_dark_menu30_720.png
+F         8530 /glibc/bin/airplay/WebApp/Assets/Materials/controls_menu_shadow30.png
+F         4887 /glibc/bin/airplay/WebApp/Assets/Materials/controls_menu_shadow30_720.png
+F          545 /glibc/bin/airplay/WebApp/Assets/Materials/playerbar_live_buffer.png
+F          396 /glibc/bin/airplay/WebApp/Assets/Materials/playerbar_live_buffer_720.png
+F          556 /glibc/bin/airplay/WebApp/Assets/Materials/playerbar_loaded.png
+F          380 /glibc/bin/airplay/WebApp/Assets/Materials/playerbar_loaded_720.png
+F          371 /glibc/bin/airplay/WebApp/Assets/Materials/playerbar_not_loaded.png
+F          308 /glibc/bin/airplay/WebApp/Assets/Materials/playerbar_not_loaded_720.png
+F         1087 /glibc/bin/airplay/WebApp/Assets/Ratings/US/white/small/G.svg
+F          390 /glibc/bin/airplay/WebApp/Assets/Ratings/US/white/small/NR.png
+F         1701 /glibc/bin/airplay/WebApp/Assets/Ratings/US/white/small/PG.svg
+F         3787 /glibc/bin/airplay/WebApp/Assets/Ratings/US/white/small/PG13.svg
+F         1681 /glibc/bin/airplay/WebApp/Assets/Ratings/US/white/small/R.svg
+F         1901 /glibc/bin/airplay/WebApp/Assets/Ratings/US/white/small/TV14.svg
+F         1966 /glibc/bin/airplay/WebApp/Assets/Ratings/US/white/small/TVG.svg
+F         1246 /glibc/bin/airplay/WebApp/Assets/Ratings/US/white/small/TVMA.svg
+F         4025 /glibc/bin/airplay/WebApp/Assets/Ratings/US/white/small/TVNC17.svg
+F         3128 /glibc/bin/airplay/WebApp/Assets/Ratings/US/white/small/TVPG.svg
+F          932 /glibc/bin/airplay/WebApp/Assets/Ratings/US/white/small/TVY.svg
+F         1049 /glibc/bin/airplay/WebApp/Assets/Ratings/US/white/small/TVY7.svg
+F         1854 /glibc/bin/airplay/WebApp/Assets/Ratings/US/white/small/TVY7FV.svg
+F         3185 /glibc/bin/airplay/WebApp/Assets/Ratings/US/white/small/Unrated.svg
+F         4472 /glibc/bin/airplay/WebApp/Assets/Reviews/RTCertified.png
+F         2747 /glibc/bin/airplay/WebApp/Assets/Reviews/RTFresh.png
+F         2018 /glibc/bin/airplay/WebApp/Assets/Reviews/RTRotten.png
+F          594 /glibc/bin/airplay/WebApp/Assets/Tabs/tabs_focused12.png
+F          442 /glibc/bin/airplay/WebApp/Assets/Tabs/tabs_focused12_720.png
+F         2771 /glibc/bin/airplay/WebApp/Assets/Tabs/tabs_focused_shadow12.png
+F         1533 /glibc/bin/airplay/WebApp/Assets/Tabs/tabs_focused_shadow12_720.png
+F         1078 /glibc/bin/airplay/WebApp/Assets/Tabs/tabs_selected12.png
+F          663 /glibc/bin/airplay/WebApp/Assets/Tabs/tabs_selected12_720.png
+F         7954 /glibc/bin/airplay/WebApp/Assets/airplay-audio-white.png
+F         3125 /glibc/bin/airplay/WebApp/Assets/airplay-video-white.png
+F        27854 /glibc/bin/airplay/WebApp/Assets/airplay-white.png
+F        11449 /glibc/bin/airplay/WebApp/Assets/airplay.png
+F          535 /glibc/bin/airplay/WebApp/Assets/airplay_pin_icon.svg
+F         3335 /glibc/bin/airplay/WebApp/Assets/airplay_small.svg
+F         1719 /glibc/bin/airplay/WebApp/Assets/placeholder-song-onDark-320x320.png
+F         3415 /glibc/bin/airplay/WebApp/Assets/settings-homekit-black.png
+F         9200 /glibc/bin/airplay/WebApp/Assets/settings-homekit-color_180.png
+F        55841 /glibc/bin/airplay/WebApp/Assets/settings-siri-family.jpg
+F        57258 /glibc/bin/airplay/WebApp/OSS-license.txt
+F       338984 /glibc/bin/airplay/WebApp/airplay.bundle.js
+F       313157 /glibc/bin/airplay/WebApp/app.bundle.js
+F         3382 /glibc/bin/airplay/WebApp/audiopanelcontroller.bundle.js
+F          407 /glibc/bin/airplay/WebApp/blankpanelcontroller.bundle.js
+F          149 /glibc/bin/airplay/WebApp/main.js
+F          122 /glibc/bin/airplay/WebApp/manifest.json
+F          473 /glibc/bin/airplay/WebApp/screenpanelcontroller.bundle.js
+F        72719 /glibc/bin/airplay/WebApp/settingspanelcontroller.bundle.js
+F         2844 /glibc/bin/airplay/WebApp/tracktranslations/ca.json
+F         3402 /glibc/bin/airplay/WebApp/tracktranslations/cs.json
+F         2863 /glibc/bin/airplay/WebApp/tracktranslations/da.json
+F         3089 /glibc/bin/airplay/WebApp/tracktranslations/de.json
+F         4242 /glibc/bin/airplay/WebApp/tracktranslations/el.json
+F         2834 /glibc/bin/airplay/WebApp/tracktranslations/en-gb.json
+F         2834 /glibc/bin/airplay/WebApp/tracktranslations/en-us.json
+F         2865 /glibc/bin/airplay/WebApp/tracktranslations/es-es.json
+F         2852 /glibc/bin/airplay/WebApp/tracktranslations/es-mx.json
+F         2853 /glibc/bin/airplay/WebApp/tracktranslations/es.json
+F         2818 /glibc/bin/airplay/WebApp/tracktranslations/fi.json
+F         2916 /glibc/bin/airplay/WebApp/tracktranslations/fr-ca.json
+F         2902 /glibc/bin/airplay/WebApp/tracktranslations/fr.json
+F         4942 /glibc/bin/airplay/WebApp/tracktranslations/hi.json
+F         3072 /glibc/bin/airplay/WebApp/tracktranslations/hr.json
+F         2841 /glibc/bin/airplay/WebApp/tracktranslations/hu.json
+F         2775 /glibc/bin/airplay/WebApp/tracktranslations/id.json
+F         2858 /glibc/bin/airplay/WebApp/tracktranslations/it.json
+F         3954 /glibc/bin/airplay/WebApp/tracktranslations/ja.json
+F         3440 /glibc/bin/airplay/WebApp/tracktranslations/ko.json
+F         2795 /glibc/bin/airplay/WebApp/tracktranslations/ms.json
+F         2883 /glibc/bin/airplay/WebApp/tracktranslations/nb.json
+F         2863 /glibc/bin/airplay/WebApp/tracktranslations/nl.json
+F         3033 /glibc/bin/airplay/WebApp/tracktranslations/pl.json
+F         2919 /glibc/bin/airplay/WebApp/tracktranslations/pt-br.json
+F         2890 /glibc/bin/airplay/WebApp/tracktranslations/pt-pt.json
+F         2919 /glibc/bin/airplay/WebApp/tracktranslations/pt.json
+F         3022 /glibc/bin/airplay/WebApp/tracktranslations/ro.json
+F         4526 /glibc/bin/airplay/WebApp/tracktranslations/ru.json
+F         3342 /glibc/bin/airplay/WebApp/tracktranslations/sk.json
+F         3024 /glibc/bin/airplay/WebApp/tracktranslations/sv.json
+F         4818 /glibc/bin/airplay/WebApp/tracktranslations/th.json
+F         3057 /glibc/bin/airplay/WebApp/tracktranslations/tr.json
+F         4416 /glibc/bin/airplay/WebApp/tracktranslations/uk.json
+F         3806 /glibc/bin/airplay/WebApp/tracktranslations/vi.json
+F         3288 /glibc/bin/airplay/WebApp/tracktranslations/zh-cn.json
+F         3285 /glibc/bin/airplay/WebApp/tracktranslations/zh-hk.json
+F         3261 /glibc/bin/airplay/WebApp/tracktranslations/zh-tw.json
+F        16857 /glibc/bin/airplay/WebApp/uitranslations/ca.json
+F        16711 /glibc/bin/airplay/WebApp/uitranslations/cs.json
+F        16136 /glibc/bin/airplay/WebApp/uitranslations/da.json
+F        16462 /glibc/bin/airplay/WebApp/uitranslations/de.json
+F        21763 /glibc/bin/airplay/WebApp/uitranslations/el.json
+F        15514 /glibc/bin/airplay/WebApp/uitranslations/en-gb.json
+F        15506 /glibc/bin/airplay/WebApp/uitranslations/en-us.json
+F        16658 /glibc/bin/airplay/WebApp/uitranslations/es-es.json
+F        16452 /glibc/bin/airplay/WebApp/uitranslations/es-mx.json
+F        16658 /glibc/bin/airplay/WebApp/uitranslations/es.json
+F        16274 /glibc/bin/airplay/WebApp/uitranslations/fi.json
+F        16983 /glibc/bin/airplay/WebApp/uitranslations/fr-ca.json
+F        16960 /glibc/bin/airplay/WebApp/uitranslations/fr.json
+F        23885 /glibc/bin/airplay/WebApp/uitranslations/hi.json
+F        16374 /glibc/bin/airplay/WebApp/uitranslations/hr.json
+F        17434 /glibc/bin/airplay/WebApp/uitranslations/hu.json
+F        16140 /glibc/bin/airplay/WebApp/uitranslations/id.json
+F        16959 /glibc/bin/airplay/WebApp/uitranslations/it.json
+F        17736 /glibc/bin/airplay/WebApp/uitranslations/ja.json
+F        16989 /glibc/bin/airplay/WebApp/uitranslations/ko.json
+F        16138 /glibc/bin/airplay/WebApp/uitranslations/ms.json
+F        15901 /glibc/bin/airplay/WebApp/uitranslations/nb.json
+F        16455 /glibc/bin/airplay/WebApp/uitranslations/nl.json
+F        16317 /glibc/bin/airplay/WebApp/uitranslations/pl.json
+F        16381 /glibc/bin/airplay/WebApp/uitranslations/pt-br.json
+F        16666 /glibc/bin/airplay/WebApp/uitranslations/pt-pt.json
+F        16666 /glibc/bin/airplay/WebApp/uitranslations/pt.json
+F        17076 /glibc/bin/airplay/WebApp/uitranslations/ro.json
+F        20950 /glibc/bin/airplay/WebApp/uitranslations/ru.json
+F        16634 /glibc/bin/airplay/WebApp/uitranslations/sk.json
+F        16095 /glibc/bin/airplay/WebApp/uitranslations/sv.json
+F        23873 /glibc/bin/airplay/WebApp/uitranslations/th.json
+F        16408 /glibc/bin/airplay/WebApp/uitranslations/tr.json
+F        19894 /glibc/bin/airplay/WebApp/uitranslations/uk.json
+F        17179 /glibc/bin/airplay/WebApp/uitranslations/vi.json
+F        15563 /glibc/bin/airplay/WebApp/uitranslations/zh-cn.json
+F        15263 /glibc/bin/airplay/WebApp/uitranslations/zh-hk.json
+F        15360 /glibc/bin/airplay/WebApp/uitranslations/zh-tw.json
+F       664977 /glibc/bin/airplay/WebApp/vendors-app.bundle.js
+F       637722 /glibc/bin/airplay/WebApp/vendors-hls.bundle.js
+F        46758 /glibc/bin/airplay/WebApp/vendors-rtc.bundle.js
+F       238672 /glibc/bin/airplay/WebApp/vendors-settingspanelcontroller.bundle.js
+F        20941 /glibc/bin/airplay/WebApp/videopanelcontroller.bundle.js
+F      1736444 /glibc/bin/airplay/bin/airplaydemo
+F       422612 /glibc/bin/airplay/bin/mdnsd
+F     20065444 /glibc/bin/airplay/lib/libFPS.so
+F      1126684 /glibc/bin/airplay/lib/libfdk-aac.so
+F        15108 /glibc/bin/airplay/lib/libfps_tee.so
+F       621132 /glibc/bin/airplay/lib/libssl.so
+F       621132 /glibc/bin/airplay/lib/libssl.so.1.1
+F       562404 /glibc/bin/airplay/lib/libuv.so.1
+F       170064 /glibc/bin/airplay/lib/libwebsockets.so.13
+F           23 /glibc/directfb-1.4-0
+F       134380 /glibc/ld-2.21.so
+F           10 /glibc/ld-linux.so.3
+F         5556 /glibc/libBrokenLocale-2.21.so
+F        20768 /glibc/libMsFS.so
+F       246800 /glibc/libMsOS.so
+F       807564 /glibc/libOMX.MStar.so
+F       125180 /glibc/libPRGluepk.so
+F         9596 /glibc/libSegFault.so
+F        13888 /glibc/libanl-2.21.so
+F           14 /glibc/libanl.so.1
+F      9167712 /glibc/libapiAUDIO.so
+F        62132 /glibc/libapiJPEG.so
+F        32876 /glibc/libapiSWI2C.so
+F       155988 /glibc/libapiVDEC.so
+F      2626524 /glibc/libapiXC.so
+F           16 /glibc/libasan.so
+F           18 /glibc/libasound.so.2
+F      1508512 /glibc/libasound.so.2.0.0
+F           18 /glibc/libatomic.so.1
+F        17696 /glibc/libatomic.so.1.1.0
+F           12 /glibc/libc.so.6
+F         9128 /glibc/libcapturemode.so
+F           17 /glibc/libcares.so
+F           17 /glibc/libcares.so.2
+F       272088 /glibc/libcares.so.2.3.0
+F       181736 /glibc/libcidn-2.21.so
+F           16 /glibc/libcrypt.so.1
+F      1631004 /glibc/libcrypto.so.1.0.0
+F           16 /glibc/libcurl.so
+F        14740 /glibc/libcusinfo.so
+F           27 /glibc/libdirect-1.4.so.0
+F           31 /glibc/libdirect-1.4.so.0.2.0
+F           23 /glibc/libdirectfb.la
+F           23 /glibc/libdirectfb.so
+F         9652 /glibc/libdl-2.21.so
+F           13 /glibc/libdl.so.2
+F        34868 /glibc/libdrvAESDMA.so
+F         6296 /glibc/libdrvAUDSP.so
+F        75136 /glibc/libdrvCMDQ.so
+F        15568 /glibc/libdrvDDC2BI.so
+F       202340 /glibc/libdrvDEMOD.so
+F        29312 /glibc/libdrvDSCMB.so
+F        45780 /glibc/libdrvGPIO.so
+F        38748 /glibc/libdrvHWI2C.so
+F        33048 /glibc/libdrvIPAUTH.so
+F        20060 /glibc/libdrvIR.so
+F        15436 /glibc/libdrvMMIO.so
+F        42192 /glibc/libdrvMSPI.so
+F       174860 /glibc/libdrvMVOP.so
+F        28152 /glibc/libdrvPCMCIA.so
+F        58812 /glibc/libdrvPM.so
+F       176024 /glibc/libdrvPQ.so
+F        27140 /glibc/libdrvRTC.so/
+F        26496 /glibc/libdrvSC.so
+F        96072 /glibc/libdrvSERFLASH.so
+F        14092 /glibc/libdrvURDMA.so
+F        58984 /glibc/libdrvVE.so
+F           21 /glibc/libfreetype.so
+F       597952 /glibc/libfreetype.so.6.14.0
+F           27 /glibc/libfusion-1.4.so.0
+F           31 /glibc/libfusion-1.4.so.0.2.0
+F          132 /glibc/libgcc_s.so
+F       116096 /glibc/libgcc_s.so.1
+F           20 /glibc/libgfortran.so
+F           35 /glibc/libgomp-plugin-host_nonshm.so
+F           35 /glibc/libgomp-plugin-host_nonshm.so.1
+F         5400 /glibc/libgomp-plugin-host_nonshm.so.1.0.0
+F           16 /glibc/libgomp.so
+F       183220 /glibc/libhdcp.so
+F        25880 /glibc/libiniparser.so
+F        38388 /glibc/libintertaca.so
+F           15 /glibc/libitm.so
+F           15 /glibc/libitm.so.1
+F        79484 /glibc/libitm.so.1.0.0
+F           17 /glibc/libjpeg.so
+F           17 /glibc/libjpeg.so.62
+F       185676 /glibc/libjpeg.so.62.0.0
+F       525520 /glibc/liblinux.so
+F           12 /glibc/libm.so.6
+F        17836 /glibc/libmemusage.so
+F       309736 /glibc/libmi_client.so
+F      3283684 /glibc/libmi_server.so
+F     10528588 /glibc/libmmp.so
+F       249872 /glibc/libmmp_asf.so
+F      2439112 /glibc/libmmsdk.so
+F        68264 /glibc/libmmsdk_mmp.so
+F      1019272 /glibc/libmmsdk_porting.so
+F      4285704 /glibc/libmmutils.so
+F        60636 /glibc/libmmutils_log.so
+F           16 /glibc/libnghttp2.so
+F        75188 /glibc/libnsl-2.21.so
+F           14 /glibc/libnsl.so.1
+F        30356 /glibc/libnss_compat-2.21.so
+F           21 /glibc/libnss_compat.so.2
+F        26036 /glibc/libnss_db-2.21.so
+F           17 /glibc/libnss_db.so.2
+F        21940 /glibc/libnss_dns-2.21.so
+F           18 /glibc/libnss_dns.so.2
+F           20 /glibc/libnss_files.so.2
+F        17844 /glibc/libnss_hesiod-2.21.so
+F           21 /glibc/libnss_hesiod.so.2
+F        42440 /glibc/libnss_nis-2.21.so
+F           18 /glibc/libnss_nis.so.2
+F        50612 /glibc/libnss_nisplus-2.21.so
+F           22 /glibc/libnss_nisplus.so.2
+F         5500 /glibc/libpcprofile.so
+F      2510800 /glibc/libplayready4.x_tee.so
+F           11 /glibc/libpng.so
+F           18 /glibc/libpng.so.3
+F       235168 /glibc/libpng.so.3.1.2.59
+F           20 /glibc/libpng12.so
+F           20 /glibc/libpng12.so.0
+F        88224 /glibc/libpthread-2.21.so
+F           18 /glibc/libpthread.so.0
+F        75308 /glibc/libresolv-2.21.so
+F           17 /glibc/libresolv.so.2
+F        26312 /glibc/librt-2.21.so
+F           13 /glibc/librt.so.1
+F      2765720 /glibc/libsbtl.so
+F       345800 /glibc/libsmartfs.so
+F           15 /glibc/libssl.so
+F       348016 /glibc/libssl.so.1.0.0
+F           15 /glibc/libssp.so
+F           15 /glibc/libssp.so.0
+F         9552 /glibc/libssp.so.0.0.0
+F        51688 /glibc/libstagefrighthw.so
+F         9696 /glibc/libstagefrighthw_dip.so
+F           19 /glibc/libstdc++.so.6
+F      1247104 /glibc/libstdc++.so.6.0.21
+F           12 /glibc/libteec.so
+F        17792 /glibc/libteec.so.1.0
+F        30416 /glibc/libthread_db-1.0.so
+F           19 /glibc/libthread_db.so.1
+F           17 /glibc/libubsan.so
+F           17 /glibc/libubsan.so.0
+F       208444 /glibc/libubsan.so.0.0.0
+F         9652 /glibc/libutil-2.21.so
+F        93156 /glibc/libvsyncbridge.so
+F           13 /glibc/libz.so
+F           13 /glibc/libz.so.1
+F        83444 /glibc/libz.so.1.2.8
+F       484192 /glibc/optee_armtz/0987be40-05fb-11e6-98930002a5d5c51b.ta
+F       219136 /glibc/optee_armtz/11223344-adf1-11e0-998b0002a5d5c51b.ta
+F       146016 /glibc/optee_armtz/1514bedf-18ff-4c2e-a615cfee12e58c56.ta
+F       219408 /glibc/optee_armtz/1e9c6117-6a9c-4bd6-a25355eeb35f50bd.ta
+F       149600 /glibc/optee_armtz/1fc17090-bbdf-4648-bca93af97ad88e63.ta
+F       166320 /glibc/optee_armtz/38ba0cdc-df0e-11e4-9869233fb6ae4795.ta
+F       153520 /glibc/optee_armtz/41ddc1ac-5b84-4584-935537f43a2337d4.ta
+F       145328 /glibc/optee_armtz/51aaf0be-6ad3-4494-8b14c367b44c010e.ta
+F       427600 /glibc/optee_armtz/565b61c5-56a1-42d0-a12adf2be0dcb89a.ta
+F       157712 /glibc/optee_armtz/5b9e0e40-2636-11e1-ad9e0002a5d5c51b.ta
+F       145328 /glibc/optee_armtz/5ce0c432-0ab0-40e5-a056782ca0e6aba2.ta
+F       852960 /glibc/optee_armtz/5f902ace-5e5c-4cd8-ae5487b88c22ddaf.ta
+F       202784 /glibc/optee_armtz/5fed249b-4879-40e1-98603cc893ce0c9c.ta
+F      1051136 /glibc/optee_armtz/61328cc8-8df1-4821-8901761bb2b9115c.bin
+F       149424 /glibc/optee_armtz/61328cc8-8df1-4821-8901761bb2b9115c.ta
+F       145328 /glibc/optee_armtz/614789f2-39c0-4ebf-b23592b32ac107ed.ta
+F       145328 /glibc/optee_armtz/731e279e-aafb-4575-a77138caa6f0cca6.ta
+F       145328 /glibc/optee_armtz/748487d6-eb5f-463c-b68823b9edc286e5.ta
+F       145328 /glibc/optee_armtz/778ee68e-6ee0-11e8-adc0fa7ae01bbebc.ta
+F       753680 /glibc/optee_armtz/79f0049a-4098-8642-ab92e65be0885f95.ta
+F       145328 /glibc/optee_armtz/7a7c8b61-5d74-4b6c-b2a992e49ce866bd.ta
+F       311344 /glibc/optee_armtz/8ef5d9d6-16f8-49ba-ad3fce3eba66c883.ta
+F      1544240 /glibc/optee_armtz/94ce86fb-07ff-4f43-adb893d2fa968ca2.ta
+F       734480 /glibc/optee_armtz/96e5dd88-4af9-480d-92f25a7ee98ca1a6.ta
+F       815744 /glibc/optee_armtz/999250c1-2c90-4fcf-802176721e671d73.ta
+F       190528 /glibc/optee_armtz/99986025-2c8d-43ca-9598b90e324e9d3b.ta
+F       307536 /glibc/optee_armtz/a30ef108-570c-4f72-97aeaa3721a4a804.ta
+F       145328 /glibc/optee_armtz/a353bf6e-7311-4613-ad0c8885afb44c09.ta
+F      2728928 /glibc/optee_armtz/a4a446ad-0963-4502-9cb7df5cecdd7ae8.bin
+F       286048 /glibc/optee_armtz/aa11967f-cc01-4a4a-8e99c5d3dddfea2d.ta
+F      1975504 /glibc/optee_armtz/aa609c43-438d-4ce7-b8acde77af1ff655.bin
+F       145328 /glibc/optee_armtz/b689f2a7-8adf-477a-9f9932e90c0ad0a2.ta
+F       987344 /glibc/optee_armtz/b9dbbfa1-8b01-4643-81877f845788cd40.bin
+F       153520 /glibc/optee_armtz/b9dbbfa1-8b01-4643-81877f845788cd45.ta
+F       165808 /glibc/optee_armtz/bc2f95bc-1111-2222-a43ca1796e7cac31.ta
+F       141232 /glibc/optee_armtz/c3f6e2c0-3548-11e1-b86c0800200c9a66.ta
+F       607840 /glibc/optee_armtz/c49b5c01-f966-4c5e-b17239723eac388c.ta
+F       361184 /glibc/optee_armtz/cb3e5ba0-adf1-11e0-998b0002a5d5c51b.ta
+F       145344 /glibc/optee_armtz/d17f73a0-36ef-11e1-984a0002a5d5c51b.ta
+F       327728 /glibc/optee_armtz/e0072fa9-767f-4370-89b40ec64235e4ad.ta
+F       145328 /glibc/optee_armtz/e13010e0-2ae1-11e5-896a0002a5d5c51b.ta
+F       145328 /glibc/optee_armtz/e1dd4fad-b54f-49fe-bec5e676704d76fa.ta
+F       388912 /glibc/optee_armtz/e325c859-96a5-48b2-9b22bb3b700c105e.ta
+F       145408 /glibc/optee_armtz/e626662e-c0e2-485c-b8c809fbce6edf3d.ta
+F       145328 /glibc/optee_armtz/e6a33ed4-562b-463a-bb7eff5e15a493c8.ta
+F      1052544 /glibc/optee_armtz/edff8ba9-79d6-4ace-a3c827dcd51d21ed.ta
+F       145344 /glibc/optee_armtz/f157cda0-550c-11e5-a6fa0002a5d5c51b.ta
+F           66 /glibc/optee_armtz/fc5196b1-555b-4288-8f46e78472e1f05e.ta
+F           18 /glibc/pkgconfig
